@@ -6,7 +6,7 @@ to run on [OpenRouter](https://openrouter.ai) with a single `OPENROUTER_API_KEY`
 ## Setup
 
 ```bash
-python -m venv venv && source venv/bin/activate
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env   # then put your OpenRouter key in .env
 ```
